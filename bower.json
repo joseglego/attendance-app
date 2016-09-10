@@ -1,0 +1,25 @@
+{
+  "name": "attendance-app",
+  "homepage": "https://github.com/joseglego/attendance-app",
+  "authors": [
+    "Jose Lezama Gonzalez <joseglego@gmail.com>"
+  ],
+  "description": "A small app to calculate the percentage of attendance and not attendance on a lesson group",
+  "main": "index.html",
+  "keywords": [
+    "Attendance",
+    "Angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8"
+  }
+}
