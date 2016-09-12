@@ -4,11 +4,11 @@
   "authors": [
     "Jose Lezama Gonzalez <joseglego@gmail.com>"
   ],
-  "description": "A small app to calculate the percentage of attendance and not attendance on a lesson group",
+  "description": "A small app made in 1 hour. To explain AngularJs from Scratch",
   "main": "index.html",
   "keywords": [
-    "Attendance",
-    "Angular"
+    "Angular",
+    "Attendance"
   ],
   "license": "MIT",
   "ignore": [
@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "angular": "^1.5.8"
+    "chart.js": "npm:chart.js#^2.2.2",
+    "angular-chart.js": "^1.0.2"
   }
 }

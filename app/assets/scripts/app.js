@@ -2,8 +2,8 @@ var app = angular.module('myApp', ['chart.js']);
 
 app.controller('myController', [
   '$scope',
-  function ($scope) {
-    $scope.calculate = function () {
+  function($scope) {
+    $scope.calculate = function() {
       var total = $scope.people * $scope.lessons;
       if ($scope.noAttendance > 0) {
         $scope.percentage = ((total - (total - $scope.noAttendance)) / total) * 100;
